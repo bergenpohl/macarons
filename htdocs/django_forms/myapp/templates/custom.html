@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>MM|Custom</title>
+  <link href="style-custom.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav" id="top">
+    <div class="container">
+      <ul>
+        <li><a class="btn" href="./">Home</a></li>
+        <li><a class="btn" href="quick">Quick</a></li>
+        <li><a class="btn" href="https://www.youtube.com/channel/UCvpgiBI3LXvMHJciJd8YKwg" target="_blank">YouTube</a></li>
+        <li><a class="btn" href="contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <h1>Custom</h1>
+      <hr>
+      <h2>Music Macarons</h2>
+      <h2>Endless. Customizable. Unique.</h2>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="container">
+      <p>Welcome to the Custom Creator. Simply mess with the settings then click the colorful button at the bottom. Once your music is generated, you&#39;ll be prompted with the option to download.</p>
+    </div>
+  </div>
+
+  <div class="form">
+    <form method="post">
+      {% csrf_token %}
+      {{ form }}
+      <button id="special_button" type="submit">GENERATE</button>
+    </form>
+</div>
+
+</body>
+</html>

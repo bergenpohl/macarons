@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>MM|Quick</title>
+  <link href="style-quick.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav" id="top">
+    <div class="container">
+      <ul>
+        <li><a class="btn" href="./">Home</a></li>
+        <li><a class="btn" href="custom">Custom</a></li>
+        <li><a class="btn" href="https://www.youtube.com/channel/UCvpgiBI3LXvMHJciJd8YKwg" target="_blank">YouTube</a></li>
+        <li><a class="btn" href="contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <h1>Quick</h1>
+      <hr>
+      <h2>Music Macarons</h2>
+      <h2>Endless. Customizable. Unique.</h2>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="container">
+      <p>Welcome to the Quick Creator. You are given pre-determined values for your music generation (<i>listed below</i>). Click the colorful button at the bottom to start the process. Once your music is generated, you&#39;ll be prompted with the option to download.</p>
+      <h3>Quick Create Values<h3>
+      <ul>
+        <li>BPM: 120</li>
+        <li>Melody: Option 1</li>
+        <li>Bass: Option 1</li>
+        <li>Form: A A B A</li>
+      </ul>
+    </div>
+  </div>
+
+  <form method="post">
+	{% csrf_token %}
+    <div class="return">
+      <div class="enter">
+        <input id="special_button" type="submit" value="GENERATE">
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>

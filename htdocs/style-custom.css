@@ -1,0 +1,243 @@
+html, body {
+  margin: 0;
+
+padding: 0;
+
+}
+
+body {
+text-align: center;
+
+  font-family: "Roboto", sans-serif;
+
+font-weight: 100;
+
+}
+
+.nav {
+  position: fixed;
+
+z-index: 1;
+
+width: 100%;
+
+height: 60px;
+
+background: #fff;
+
+}
+
+.nav ul {
+  height: 60px;
+
+margin: 0 auto;
+
+padding: 0;
+
+list-style: none;
+
+}
+
+.nav ul li {
+display: inline-block;
+
+height: 60px;
+
+padding: 0 20px;
+
+list-style: none;
+
+color: #305e7c;
+
+line-height: 60px;
+
+}
+
+.container {
+max-width: 940px;
+
+margin: 0 auto;
+
+padding: 0 10px;
+
+}
+
+.btn {
+padding: 10px 10px;
+
+text-decoration: none;
+
+color: #7c3060;
+
+background: #fff;
+
+font-size: 18px;
+
+}
+
+.btn:hover {
+padding: 10px 9px;
+
+color: #a4557d;
+
+border: solid 1px;
+
+border-radius: 5px;
+
+}
+
+.header {
+height: 936px;
+
+background: url("Elegant_Background-1-2.jpg");
+
+background-size: cover;
+
+}
+
+.header .container {
+  position: relative;
+
+top: 170px;
+
+}
+
+.header h1 {
+margin-top: 0;
+
+margin-bottom: 80px;
+
+text-transform: uppercase;
+
+color: #fff;
+
+font-size: 115px;
+
+line-height: 100px;
+
+}
+
+.header h2 {
+margin-top: 80px;
+
+margin-bottom: 80px;
+
+color: #fff;
+
+font-size: 50px;
+
+font-weight: 500;
+
+line-height: 50px;
+
+}
+
+hr {
+  border-top: 3px solid #fff;
+}
+
+p {
+max-width: 940px;
+
+margin-top: 80px;
+
+margin-bottom: 80px;
+
+text-align: left;
+
+  color: #7c3060;
+
+font-family: "Courier New";
+
+font-size: 20px;
+
+font-weight: 500;
+
+line-height: 45px;
+
+  }
+
+.form {
+  align: center;
+}
+
+label {
+
+  margin: 0 30% 20px;
+
+  padding: 3px 0;
+
+  display: block;
+
+  text-decoration: none;
+
+  color: #7c3060;
+
+  border: solid 2px #7c3060;
+
+  border-radius: 30px;
+
+    font-size: 40px;
+}
+
+select, input {
+overflow: hidden;
+
+  color: #fff;
+
+border: solid 3px #7c3060;
+
+background-color: #7c3060;
+
+font-size: 18px;
+
+margin: 0 550px;
+
+  }
+
+select:hover, input:hover {
+  background-color: #428f5a;
+}
+
+#id_bpm, #id_bass {
+  margin-bottom: 100px;
+}
+
+#id_melody , #id_first_eight , #id_second_eight , #id_third_eight {
+  margin-bottom: 30px;
+}
+
+#special_button {
+
+  font-size: 30px;
+
+  margin: 100px 70px;
+
+padding: 15px 10%;
+
+letter-spacing: 10px;
+
+  background: linear-gradient(45deg, #4d85a4, #7c3060, #e1e388, #42a157);
+
+  transition: 1s;
+
+  text-shadow: 3px 1px 1px #909090;
+
+  border: solid 2px #fff;
+
+  border-radius: 10px;
+
+  color: #fff;
+
+  }
+
+#special_button:hover {
+
+border-color: #7c3060;
+
+transition: .5s;
+
+text-shadow: 3px 1px 1px #7c3060;
+
+padding:
+}
